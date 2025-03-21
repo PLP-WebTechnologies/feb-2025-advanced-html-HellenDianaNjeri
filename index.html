@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADVANCED HTML</title>
+</head>
+<body>
+    <h1>Healthy Sweet Tooth</h1>
+    <!-- ordered list start -->
+    <ol type="I">
+        <li>mango</li>
+        <li>pineapple</li>
+        <li>lemon</li>
+        <li>pixie</li>
+        <li>banana</li>
+    </ol>
+    <!-- ordered list end -->
+
+    <!-- start of external image from pexels.com -->
+     <img src="https://images.pexels.com/photos/31233294/pexels-photo-31233294/free-photo-of-vibrant-fruit-basket-on-picnic-blanket.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="fruit image" width="250px" height="250px">
+     <br><br><br>
+
+     <!-- table of 5 contacts -->
+      <table border="3">
+        <caption><b>Registration details</b></caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Emails</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Shem</td>
+                <td>Thika</td>
+                <td>0765342254</td>
+                <td>shem@gmail.com</td>
+            </tr>
+
+            <tr>
+                <td>Lucy</td>
+                <td>Meru</td>
+                <td>0765432123</td>
+                <td>l89@gmail.com</td>
+
+            </tr>
+            
+            <tr>
+                <td>Samuel</td>
+                <td>Nairobi</td>
+                <td>0757911114</td>
+                <td>samuel98@gmail.com</td>
+            </tr>
+
+            <tr>
+                <td>Mali</td>
+                <td>Thika</td>
+                <td>0741312233</td>
+                <td>Malim@gmail.com</td>
+            </tr>
+
+            <tr>
+                <td>Esther</td>
+                <td>Mairi</td>
+                <td>0765436724</td>
+                <td>EstherM98@gmail.com</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Emails</th>
+            </tr>
+        </tfoot>
+      </table>
+
+      <br><br><br>
+      <!-- registration form -->
+       <form action="">
+        <h2>Registration form</h2>
+        <label for="username">Name:</label>
+        <input type="text" id="username" placeholder="input your name" required="required">
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" required="required" placeholder="abc@gmail.com">
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" required="registration">
+        <br><br>
+        <label for="date">Date:</label>
+        <input type="date" id="date">
+        <br><br><br>
+
+        <!-- dropdown -->
+        <label>country:</label>
+        <select name="country" id="country">
+            <option>--select country--</option>
+            <option value="Kenya">Kenya</option>
+            <option value="Sudan">Sudan</option>
+            <option value="Ethiopia">Ethiopia</option>
+            <option value="Tanzania">Tanzania</option>
+        </select>
+        <br><br><br>
+
+        <!-- radiobuttons -->
+         <label for="gender">Gender:</label>
+         <br><br>
+         <input type="radio" name="gender" value="F">Female
+         <br><br>
+         <input type="radio" name="gender" value="male">Male
+         <br><br><br>
+
+<!-- checkbox -->
+ <label for="fruits">Build your ideal fruit bowl:</label>
+ <br>
+ <input type="checkbox" value="mango" name="fruits">Mango
+ <input type="checkbox" value="pineapple" name="fruits">pineapple
+ <input type="checkbox" value="lemon" name="fruits"> lemon
+ <input type="checkbox" value=" pixie" name="fruits">pixie
+ <input type="checkbox" value="banana" name="fruits">banana
+<br><br>
+ <button type="submit">SUBMIT</button>
+    </form>
+</body>
+</html>
